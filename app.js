@@ -1,10 +1,6 @@
 const express = require("express");
 const app = express();
 
-const { JSDOM } = require( "jsdom" );
-const { window } = new JSDOM( "" );
-const $ = require( "jquery" )( window );
-
 const https = require("https");
 const request = require("request");
 
